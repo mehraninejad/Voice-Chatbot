@@ -20,6 +20,12 @@ This project is a simple voice-based chatbot that supports Persian language usin
 <br/>
 <h2>⚡&nbsp;Prerequisites<h2>
 <p style="font-size:10px;"line-height:1.4;">
+ ⚠&nbsp;It is recommended to create a virtual environment first to keep this project separate from your system Python and avoid conflicts.
+  
+  ```python
+  pthon -m venv venv
+  ```
+ 
 <b>Required libraries</b>
   
 This project requires the following Python libraries:
