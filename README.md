@@ -24,7 +24,7 @@ This project is a simple voice-based chatbot that supports Persian language usin
  ⚠&nbsp;It is recommended to create a virtual environment first to keep this project separate from your system Python and avoid conflicts.
   
   ```python
-  pthon -m venv venv
+  python -m venv venv
   ```
  
 <b>Required libraries</b>
@@ -57,7 +57,7 @@ API_KEY=your_openai_api_key_here
 
 3. Run the script in Python:
 ```pthon
-python voice_chatgpt.py
+python voice_chatbot.py
 ```
 3. When you see Please speak..., start talking.
 
