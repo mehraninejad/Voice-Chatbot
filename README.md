@@ -51,7 +51,18 @@ python voice_chatgpt.py
 ```
 3. When you see Please speak..., start talking.
 
-4. Your speech will be recognized and ChatGPT's response will appear in the console.
+4.  Receives the response and saves it in a file called output.txt in the same folder as the script.
+<br/>
+<h3>Note about terminal display</h3>
+<p>
+- Persian text may appear reversed or disorganized when printed directly in the terminal due to right-to-left language issues.  
+<br/>
+- To solve this, the program automatically writes the output to output.txt, which can be opened in VSCode, Notepad++, or any text editor with UTF-8 support.
+<br/>
+- This ensures the Persian response is correctly formatted and readable.
+<br/>
+>Open output.txt to see the formatted Persian response.
+</p>
 <br/>
 <h2>💚&nbsp;Outcome</h2> 
 
