@@ -49,7 +49,7 @@ pip install -r requirements.txt
 API_KEY=your_openai_api_key_here
 ```
  </p>
-<br>
+<br/>
 <h2>🎯&nbsp;How to Run</h2>
 
 1. Create config.env file and place your OpenAI key inside.
@@ -77,6 +77,7 @@ python voice_chatgpt.py
   
 </p>
 <br/>
+
 <h2>💚&nbsp;Outcome</h2> 
 
 Running this project gives you a smart Persian voice chatbot that can be used for personal projects, learning, or fun.
