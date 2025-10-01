@@ -1,0 +1,6 @@
+openai
+speechRecognition
+python-dotenv
+pipwin
+PyAudio
+
