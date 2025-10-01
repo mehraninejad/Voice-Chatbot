@@ -29,7 +29,10 @@ This project requires the following Python libraries:
 ☆&nbsp;SpeechRecognition
 <br/>
 ☆&nbsp;python-dotenv
-
+<br/>
+☆&nbsp;pipwin
+<br/>
+☆&nbsp;PyAudio
 You can install all of them easily at once using the requirements.txt file:
 ```bash
 pip install -r requirements.txt
@@ -43,15 +46,17 @@ API_KEY=your_openai_api_key_here
 <br>
 <h2>🎯&nbsp;How to Run</h2>
 
-1. Create config.env and place your OpenAI key inside.
+1. Create config.env file and place your OpenAI key inside.
 
-2. Run the script in Python:
+3. Run the script in Python:
 ```pthon
 python voice_chatgpt.py
 ```
 3. When you see Please speak..., start talking.
 
 4.  Receives the response and saves it in a file called output.txt in the same folder as the script.
+
+> Make sure your config.env file is set up with your OpenAI API key before running the project.
 <br/>
 <h3>Note about terminal display</h3>
 <p>
@@ -61,7 +66,9 @@ python voice_chatgpt.py
 <br/>
 - This ensures the Persian response is correctly formatted and readable.
 <br/>
->Open output.txt to see the formatted Persian response.
+  
+ > Open output.txt to see the formatted Persian response
+  
 </p>
 <br/>
 <h2>💚&nbsp;Outcome</h2> 
